@@ -5,10 +5,15 @@ import Navbar from 'react-bootstrap/Navbar';
 import InputGroup from "react-bootstrap/InputGroup";
 import FormControl from "react-bootstrap/FormControl";
 import Button from "react-bootstrap/Button";
-import { Heart,ShoppingBag } from 'react-feather';
+import { Heart, ShoppingBag } from 'react-feather';
+import LoginModal from '../../utils/Modal';
 
 
 const Header = () => {
+  const [show, setShow] = React.useState(false);
+
+  const handleClose = () =>setShow(false);
+  const handleShow = () => setShow(true);
   return (
     <div className='header-main-block'>
       <Container>
@@ -29,13 +34,20 @@ const Header = () => {
                 </InputGroup>
 
               </Nav>
-              <Button variant="outline-secondary" id="button-addon2">Sign In</Button>
-              <Heart size={18} style={{color:'#fff',marginLeft:'7px'}}/>
-              <ShoppingBag size={18} style={{color:'#fff',marginLeft:'7px'}} />
+              <div style={{dislay:"flex",justifyContent:'space-between',alignItems:'center'}}>
+                <Button variant="outline-secondary" id="button-addon2"onClick={handleShow}>Sign In</Button>
+                <Heart size={18} style={{color:'#FFFF',marginLeft:'35px'}} />
+                <ShoppingBag size={18} style={{color:'#FFFF',marginLeft:'35px'}}/>
+              </div>
             </Container>
           </Navbar>
         </div>
       </Container>
+      <LoginModal 
+          handleClose={handleClose}
+          show={show}
+          setShow={setShow}
+      />
     </div>
   )
 }
