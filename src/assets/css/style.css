@@ -28,19 +28,24 @@
   font-weight: 800;
   font-family: 'Poppins', sans-serif;
 }
+
 .text-center {
   font-family: 'Poppins', sans-serif;
 
 }
-.button{
+
+.button {
   font-family: 'Poppins', sans-serif;
 }
-.checkbox{
+
+.checkbox {
   font-family: 'Poppins', sans-serif;
 }
-.forgot-password{
+
+.forgot-password {
   font-family: 'Poppins', sans-serif;
 }
+
 .label {
   font-size: 14px;
   font-weight: 600;
@@ -50,4 +55,116 @@
 
 .error {
   color: red
+}
+
+.collection-main-block {
+  margin-bottom: 60px;
+}
+
+.collection-main-title h2 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  font-family: 'Poppins', sans-serif;
+  color: #222222;
+}
+
+.collection-main-title p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  font-family: 'Poppins', sans-serif;
+  color: #595959
+}
+
+.collection-inner-main-box {
+  border-radius: 12px;
+  overflow: hidden;
+  background: #FFFFFF;
+  transform: translateZ(0px);
+  border: 1px solid #DEDEE3;
+}
+
+.collection-title-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.collection-title-inner-block {
+  display: flex !important;
+  align-items: center;
+  padding: 10px
+}
+
+.collection-title-right-block {
+  display: flex !important;
+  align-items: center;
+  padding: 10px
+}
+
+.collection-title-inner-block p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 0;
+
+}
+
+.collection-title-right-block p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 0;
+}
+
+.collection-image-block {
+  display: flex;
+  margin-top: 5px;
+  justify-content: space-between;
+}
+
+.collection-image-block-first-row img {
+  width: 100%;
+}
+
+.collection-image-block-first-Rightrow {
+  margin-right: 5px;
+}
+
+.collection-image-block-first-Rightrow img {
+  width: 100%;
+}
+
+.collection-image-block-first-Rightrow img :hover {
+  background-color: #595959;
+}
+
+/* for-your-home-main-section */
+.for-your-home-main-block {
+  margin-bottom: 60px;
+}
+
+.for-your-home-inner-title-block p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.for-your-home-inner-title-block h1 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.unique-finds {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 3px;
 }
