@@ -1,0 +1,145 @@
+
+
+ @media (min-width: 1110px) { 
+    .categoriesImgBlock{
+        width: 114px;
+    }
+ }
+ 
+ @media (min-width: 900px) { 
+    .categoriesImgBlock{
+        width: 85px;
+    }
+    .cat-section-block{
+        padding-left: 25px;
+  padding-right: 25px;
+    }
+    .subHeader-categories{
+        top:-45px;
+    }
+ }
+
+ @media (min-width: 830px) { 
+    .categoriesImgBlock{
+        width: 70px;
+    }
+    .catgoriesTitle{
+        font-size: 10px;
+    line-height: 14px;
+    margin-top: 7px;
+    }
+
+    .subHeader-categories{
+        top:-40px;
+    }
+
+    .cat-section-block {
+        padding-left: 20px;
+        padding-right: 20px;}
+        .subHeadeCategoriesBlock{
+            margin-bottom: 90px;
+        }
+}
+
+@media (min-width: 700px) { 
+    .subHeaderSubCategoriesBlock{
+        height: 50px;
+    }
+    .categoriesImgBlock{
+        width: 70px;
+    }
+    .catgoriesTitle{
+        font-size: 10px;
+    line-height: 14px;
+    margin-top: 7px;
+    }
+
+    .subHeader-categories{
+        top:-40px;
+    }
+
+    .cat-section-block {
+        padding-left: 15px;
+        padding-right: 15px;}
+        .subHeadeCategoriesBlock{
+            margin-bottom: 90px;
+        }
+}
+
+@media (min-width: 545px) { 
+    .subHeaderText{
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .subHeaderSubCategoriesBlock{
+        height: 220px;
+    }
+    .categoriesImgBlock{
+        width: 120px;
+    }
+    .catgoriesTitle{
+        font-size: 10px;
+    line-height: 14px;
+    margin-top: 7px;
+    }
+
+    .subHeader-categories{
+        top:-220px;
+    }
+
+    .cat-section-block {
+        padding-left: 20px;
+        padding-right: 20px;}
+        .subHeadeCategoriesBlock{
+            margin-bottom: 90px;
+        }
+
+        .catgoriesTitle{
+            font-size: 14px;
+            line-height: 20px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .subHeadeCategoriesBlock{
+            margin-bottom: 150px;
+        }
+}
+ 
+@media (min-width: 315px) { 
+    .subHeaderText{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .subHeaderSubCategoriesBlock{
+        height: 220px;
+    }
+    .categoriesImgBlock{
+        width: 85px;
+    }
+    .catgoriesTitle{
+        font-size: 10px;
+    line-height: 14px;
+    margin-top: 7px;
+    }
+
+    .subHeader-categories{
+        top:-170px;
+    }
+
+    .cat-section-block {
+        padding-left: 20px;
+        padding-right: 20px;}
+        .subHeadeCategoriesBlock{
+            margin-bottom: 90px;
+        }
+
+        .catgoriesTitle{
+            font-size: 14px;
+            line-height: 20px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .subHeadeCategoriesBlock{
+            margin-bottom: 150px;
+        }
+}

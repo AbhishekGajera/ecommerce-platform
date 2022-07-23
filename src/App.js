@@ -6,6 +6,7 @@ import Home from './components/Home';
 import Login from './components/Auth/Login';
 import Register from './components/Auth/Register';
 import  './assets/css/style.css'
+import './assets/css/responsive.css'
 
 function App() {
   return (
