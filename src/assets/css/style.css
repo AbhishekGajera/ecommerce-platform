@@ -232,5 +232,24 @@
   padding-left: 30px;
   padding-right: 30px;
   /* width: 12.5%; */
-  text-align: center;
+  text-align: -webkit-center;
+}
+
+.header-icon-block{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right:10px;
+  padding-left: 10px;
+  /* align-items: flex-end; */
+
+}
+
+.btn-search{
+  background-color:white;
+}
+
+.search-bar{
+  border-radius: 50px;
+  overflow: hidden;
 }

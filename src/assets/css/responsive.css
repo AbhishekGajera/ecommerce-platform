@@ -1,25 +1,25 @@
 
 
- @media (min-width: 1110px) { 
+ @media (min-width: 1199px) { 
     .categoriesImgBlock{
         width: 114px;
     }
  }
  
- @media (min-width: 900px) { 
+ @media (min-width: 992px)and (max-width:1199px) { 
     .categoriesImgBlock{
         width: 85px;
     }
     .cat-section-block{
-        padding-left: 25px;
-  padding-right: 25px;
+        padding-left: 15px;
+  padding-right: 15px;
     }
     .subHeader-categories{
         top:-45px;
     }
  }
 
- @media (min-width: 830px) { 
+ @media (min-width: 830px) and (max-width:991px) { 
     .categoriesImgBlock{
         width: 70px;
     }
@@ -34,14 +34,14 @@
     }
 
     .cat-section-block {
-        padding-left: 20px;
-        padding-right: 20px;}
+        padding-left: 15px;
+        padding-right: 15px;}
         .subHeadeCategoriesBlock{
             margin-bottom: 90px;
         }
 }
 
-@media (min-width: 700px) { 
+@media (min-width: 700px)and (max-width:830px) { 
     .subHeaderSubCategoriesBlock{
         height: 50px;
     }
@@ -66,7 +66,7 @@
         }
 }
 
-@media (min-width: 545px) { 
+@media (min-width: 545px) and (max-width:700px)  { 
     .subHeaderText{
         font-size: 26px;
         line-height: 32px;
@@ -105,7 +105,7 @@
         }
 }
  
-@media (min-width: 315px) { 
+@media (min-width: 449px)and (max-width: 545px) { 
     .subHeaderText{
         font-size: 24px;
         line-height: 30px;
