@@ -175,6 +175,9 @@
 .content {
   display: contents;
 }
+
+/* header and Subheader  */
+
 .subHeaderTitleBlock{
   text-align:center;
   background-color: #D7E6F5 !important;
@@ -241,22 +244,82 @@
 
 .header-icon-block{
   display: flex;
-  justify-content: end;
+  justify-content:end;
   align-items: center;
   padding-right:10px;
   padding-left: 10px;
-  /* align-items: flex-end; */
+  align-items: flex-end;
 
+}
+
+.header-mobile-block{
+  display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
 }
 
 .btn-search{
   background-color:white;
+  border: 0px solid;
 }
 
 .search-bar{
   border-radius: 50px;
   overflow: hidden;
+  border: 1px solid black;
 }
+
+.nav-sign-in{
+  color:#000;
+
+}
+.app-logo{
+  text-align: center;
+}
+.searchbox{
+  background-color: #000;
+}
+
+.cat-list {
+  display: flex;
+ justify-content: space-between;
+
+ margin-top: 10px;
+}
+
+
+.cat-list li {
+  list-style: none;
+  font-size: 13px;
+  font-weight:400;
+  line-height: 18px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.gift-icon{
+  width: 13px;
+  margin-right: 2px;
+}
+
+.header-lg{
+  display: none;
+}
+
+.header-mobile{
+display: flex;
+margin-bottom: 10px;
+justify-content: center;
+align-items: center;
+}
+
+.search-mobile{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 
 
 /*---------------------
@@ -379,4 +442,3 @@
   font-weight: 600;
   text-decoration: none;
 }
-
