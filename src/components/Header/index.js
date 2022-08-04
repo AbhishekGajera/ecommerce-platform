@@ -5,8 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 import InputGroup from "react-bootstrap/InputGroup";
 import FormControl from "react-bootstrap/FormControl";
 import Button from "react-bootstrap/Button";
-import { Heart, Search, ShoppingBag, Gift } from "react-feather";
-import { useNavigate } from "react-router-dom";
+import { Heart, Search, ShoppingBag, Gift,AlignLeft } from "react-feather";
 import headerLogo from '../../assets/images/header-logo.png'
 
 const Header = () => {
@@ -66,12 +65,12 @@ const Header = () => {
 
       <Container className="header-sm">
         <div className="header-inner-block">
-          <Navbar bg="#fff" variant="light">
+          <Navbar bg="#FFFFFF" variant="light">
 
             <div className="header-mobile-block">
-              <Navbar.Brand href="#home" className="col-3 app-logo">
-                ESTY
-              </Navbar.Brand>
+            <div className="col-md-2 col-sm-2 app-logo">
+              <img src={headerLogo} alt='headerLogo' />
+            </div>
 
               <div className="col-9 header-icon-block">
                 <Nav.Link href="login" className="nav-sign-in">
@@ -79,11 +78,11 @@ const Header = () => {
                 </Nav.Link>
                 <Heart
                   size={18}
-                  style={{ color: "#000", marginLeft: "35px" }}
+                  style={{ color: "#FFFFFF", marginLeft: "35px" }}
                 />
                 <ShoppingBag
                   size={18}
-                  style={{ color: "#000", marginLeft: "35px" }}
+                  style={{ color: "#FFFFFF", marginLeft: "35px" }}
                 />
               </div>
 
@@ -92,15 +91,15 @@ const Header = () => {
           </Navbar>
         </div>
         <div className="header-mobile">
-          <Navbar.Brand href="#home" className="col-2 app-logo">
-            <ShoppingBag
+          <Navbar.Brand href="#home" className="app-small-categories-icon">
+            <AlignLeft
               size={18}
-              style={{ color: "#000", marginLeft: "35px" }}
+              style={{ color: "#FFFFFF" }}
             />
           </Navbar.Brand>
 
           <Nav className="col-10 search-bar search-mobile">
-            <InputGroup className="col-12 searchbox">
+            <InputGroup className=" searchbox">
               <FormControl
                 placeholder="Search"
                 aria-label="Search"

@@ -145,6 +145,40 @@
   background-color: #595959;
 }
 
+
+/*
+shop selection
+*/
+
+.shop-selection-image-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.shop-selection-title-block {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  align-items: center;
+  min-height: 78px;
+}
+
+.shop-selection-inner-block {
+  display: flex !important;
+  align-items: center;
+  padding: 10px
+}
+
+.shop-selection-right-block p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 0;
+}
+
 /* for-your-home-main-section */
 .for-your-home-main-block {
   margin-bottom: 60px;
@@ -329,6 +363,11 @@ align-items: center;
   border: none;
 }
 
+.app-small-categories-icon{
+  text-align: left;
+}
+
+
 
 
 /*---------------------
@@ -450,4 +489,45 @@ align-items: center;
   color: #d8dbdee0;
   font-weight: 600;
   text-decoration: none;
+}
+
+
+/* jwellaryDesign */
+
+.jwellary-rows{
+  border: 1px solid gray;
+  padding: 0px;
+  border-radius: 15px;
+}
+
+.Jewellery-shop-inner-main-box {
+  border-radius: 12px;
+  overflow: hidden;
+  background: #FFFFFF;
+  transform: translateZ(0px);
+}
+
+.Jewellery-shop-image-block-first-Rightrow {
+  margin:9px;
+  max-width: 50%;
+}
+
+.Jewellery-shop-image-block-first-Rightrow img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.jewellery-shop-title-block {
+  height: 200px;
+align-items: center;
+padding: 9px;
+}
+
+.jwellery-image-block {
+  display: flex;
+  margin-top: 5px;
+  justify-content: space-between;
+  height: 200px;
+  align-items: center;
+  padding: 9px;
 }

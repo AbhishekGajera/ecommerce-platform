@@ -15,6 +15,17 @@
         display: block;
     }
  }
+
+ @media (max-width: 900px) { 
+    .header-mobile{
+        justify-content: flex-start;
+    }
+    .app-small-categories-icon {
+        margin-right: 10px;
+    }
+ }
+
+
  
  @media (min-width: 992px)and (max-width:1199px) { 
     .categoriesImgBlock{
